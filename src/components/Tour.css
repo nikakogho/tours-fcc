@@ -1,0 +1,73 @@
+.tour {
+    margin-top: 50px;
+}
+
+.tour .img-fitter {
+    width: 100%;
+    height: 320px;
+}
+
+.tour img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.tour .text {
+    background-color: white;
+    padding: 30px;
+}
+
+.tour .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.tour .top p {
+    background-color: #EBF7FF;
+    color: #227ab9;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.tour .top h2 {
+    margin: 0;
+}
+
+.tour .text .paragraph {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.tour .text .paragraph p {
+    margin: 0;
+}
+
+.tour .text .paragraph button {
+    color: #227ab9;
+    background: white;
+    border: none;
+}
+
+.tour button:hover {
+    cursor: pointer;
+}
+
+.tour .text .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tour .text .bottom button {
+    margin: 0 auto;
+    width: 200px;
+    height: 29px;
+    color: darkred;
+    background: white;
+    border: 1px solid darkred;
+    border-radius: 10px;
+}
